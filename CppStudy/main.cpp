@@ -1,10 +1,12 @@
 #include <iostream>
+#include <functional>
+#include "MySort.h"
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello Cpp!!" << endl;
+	MySort::PrintPerformance(10000);
 
 	return 0;
 }
